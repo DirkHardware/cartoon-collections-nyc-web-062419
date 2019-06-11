@@ -16,6 +16,7 @@ def summon_captain_planet(planateers)
   planateers.map do |name|
     name.capitalize
     name = "#{name}!"
+  end
   planateers
 end
 
