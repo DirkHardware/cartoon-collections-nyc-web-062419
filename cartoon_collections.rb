@@ -5,9 +5,17 @@ def roll_call_dwarves(dwarves)
     rollnumber += 1
   end
 end
+#
+# def summon_captain_planet(planateers)
+#   planateers.map! {|name| name.capitalize}
+#   planateers
+# end
+
 
 def summon_captain_planet(planateers)
-  planateers.map! {|name| name.capitalize}
+  planateers.map do |name|
+    name.capitalize
+    name = "#{name}!"
   planateers
 end
 
