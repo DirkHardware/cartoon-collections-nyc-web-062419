@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planteers)
   planateers.map! {|name| name.capitalize name = "#{name}!"}
-  # Your code here
+  planateers
 end
 
 def long_planeteer_calls# code an argument here
