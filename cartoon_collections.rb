@@ -23,7 +23,7 @@ def summon_captain_planet(planateers)
 end
 
 def long_planeteer_calls(planateers)
-  planateers.map! do |call|
+  planateers.any? do |call|
     call.length > 4
 end
 
