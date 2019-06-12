@@ -30,5 +30,9 @@ end
 
 def find_the_cheese(platter)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  platter.include?("cheddar" || "gouda" || "camembert")
+  if platter.include?("cheddar" || "gouda" || "camembert")
+    platter.find do |selection|
+      selection == "cheddar" || "gouda" || "camembert"
+    end
+  end
 end
