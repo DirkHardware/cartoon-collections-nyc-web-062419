@@ -36,4 +36,5 @@ def find_the_cheese(platter)
     else
       nil
     end
+  end
 end
