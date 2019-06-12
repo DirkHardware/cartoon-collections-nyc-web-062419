@@ -35,5 +35,4 @@ def find_the_cheese(platter)
     selection.include?(cheese_types[1])
     selection.include?(cheese_types[2])
   end
-  nil
 end
