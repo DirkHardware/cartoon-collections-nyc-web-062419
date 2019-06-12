@@ -33,5 +33,6 @@ def find_the_cheese(platter)
   platter.collect do |selection|
     if selection == "cheddar" ||"gouda" || "camembert"
       selection
+    end
   end
 end
