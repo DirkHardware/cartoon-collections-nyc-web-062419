@@ -33,5 +33,4 @@ def find_the_cheese(platter)
   selection.include?("cheddar")
   selection.include?("gouda")
   selection.include?("camembert")
-  end
 end
