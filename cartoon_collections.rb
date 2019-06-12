@@ -37,6 +37,6 @@ def find_the_cheese(platter)
     selection.includes?(cheese_types[1])
   end
   platter.find do |selection|
-    selection.incldues?(cheese_types[2])
+    selection.incldes?(cheese_types[2])
   end
 end
