@@ -34,8 +34,7 @@ def find_the_cheese(platter)
     selection.include?(cheese_types[0])
     selection.include?(cheese_types[1])
     selection.include?(cheese_types[2])
-    else
-      nil
+  nil
     end
   end
 end
